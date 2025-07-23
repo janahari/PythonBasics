@@ -1,0 +1,4 @@
+list = []
+print("Welcoem to basic Python DataStructs")
+names = ["Krish", "Jack", "jacob",1,2,3,4]
+print(names)
