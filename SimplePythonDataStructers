@@ -1,4 +1,4 @@
-list = []
+
 print("Welcoem to basic Python DataStructs")
 names = ["Krish", "Jack", "jacob",1,2,3,4]
 print(names)
@@ -20,3 +20,31 @@ print("Print from index 1 to index 3 kiwi to cherry")
 print(fruits[1:3])
 print("Fruits from reversing order ")
 print(fruits[-5:-1])
+
+numbers = []
+
+numbers = [1,2,3,4]
+
+## Working on Tuples 
+##print(type(numbers))
+empty_tuple = tuple(numbers)
+##print(empty_tuple)
+
+res = list((1,2,3,4))
+##print(res)
+
+mixed_tuple = (1, 2, 3, "Hari", True, 4.0)
+##print(mixed_tuple)
+
+#Accessing tuple elements 
+
+print(numbers[0])
+
+# Get last element 
+print(numbers[-1])
+
+#Print numbers in tuple from 0 to 2 1,2,3
+#numbers = [1,2,3,4]
+print(numbers[:3])
+
+print(numbers[::-1])
