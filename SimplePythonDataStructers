@@ -81,7 +81,7 @@ for value in student_rolls:
     print(value)
 
 nested_tuple = ((1,2,3),"Hi")
-print(type(nested_tuple))
+print(type(nested_tuple)) 
 print(nested_tuple[1])
 
 star_tuple = (("*","*","*"),["$","#","@"])
