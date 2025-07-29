@@ -20,4 +20,20 @@ students["address"] = "Bangalore"
 print(students)
 students_copy = students
 students["name"] = "Prasad"
-print(students_copy)
+#print(students_copy)
+
+students = {
+    "student1":{"name":"Krish","age":32},
+    "student2":{"name":"Peter", "age":35}
+}
+#print(students)
+#print(students["student1"]["name"])
+#Iterate nested Dictionaries 
+print()
+for student_id, student_info in students.items():
+    print(f"{student_id}:{student_info}")
+    for key, value in student_info.items():
+        print(f"{key}:{value}")
+        print()
+
+
