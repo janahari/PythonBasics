@@ -37,3 +37,6 @@ for student_id, student_info in students.items():
         print()
 
 
+squares = {x :x**2 for x in range(5)}
+print(squares)
+
